@@ -1,0 +1,19 @@
+{
+  "name": "gw_project",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clip-empty-files": "^0.1.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-include": "~2.2.1",
+    "gulp-uglify": "~2.1.2",
+    "gulp-watch": "5.0.0",
+    "gulp-zip": "^3.2.0"
+  },
+  "dependencies": {
+    "flickity": "^2.0.10",
+    "jquery": "^3.2.1",
+    "normalize.sass": "^3.0.3-2"
+  }
+}

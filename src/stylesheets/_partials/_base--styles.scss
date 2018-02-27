@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.btn {
+    border: 2px solid #00B340;
+    display: block;
+    width: 230px;
+    padding: 10px 30px 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    color: #000;
+    margin: 0 auto;
+    transition: .25s ease all;
+
+    &:after {
+        content: '\203A';
+        position: absolute;
+        right: 10px;
+        top: 0px;
+        color: #00B340;
+        font-size: 4em;
+        line-height: .45;
+        font-weight: 300;
+    }
+
+    &:hover {
+        background: #333333;
+        color: #ffffff;
+
+        &:after {
+            color: #ffffff;
+        }
+    }
+}

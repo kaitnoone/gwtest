@@ -1,0 +1,50 @@
+.hero {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        display: block;
+        min-height: 250px;
+    }
+}
+
+.hero__desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.61);
+    padding: 50px;
+    max-width: 100%;
+    line-height: 1.5;
+
+    h1 {
+        font-weight: normal;
+        color: #ffffff;
+        margin-top: 0;
+    }
+
+    p {
+        color: #ffffff;
+    }  
+}
+
+@media (min-width: 767px) {
+    .hero__desc {
+        top: 0;
+        left: 5%;
+        right: 5%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero__desc {
+        left: 5%;
+        top: 15%;
+        bottom: auto;
+        right: auto;
+        width: 550px;
+        padding-bottom: 100px;
+    }
+}

@@ -1,0 +1,18 @@
+.carousel__item {
+    //position: relative;
+}
+
+.carousel__item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel__item__con {
+    position: relative;
+}
+
+.carousel__item__desc {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

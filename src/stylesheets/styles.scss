@@ -1,0 +1,19 @@
+@import "../../node_modules/normalize.sass/_normalize.sass";
+@import "../../node_modules/flickity/dist/flickity.min";
+
+@import "_partials/base--styles";
+@import "_partials/contentlinks";
+@import "_partials/hero";
+@import "_partials/news";
+
+
+.wrapper {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (max-width: 1200px) {
+    padding: 0;
+}
